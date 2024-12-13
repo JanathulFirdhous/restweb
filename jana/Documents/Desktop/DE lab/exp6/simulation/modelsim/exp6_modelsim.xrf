@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/moosa/OneDrive/Documents/Desktop/DE lab/exp6/exp6.v
+source_file = 1, C:/Users/moosa/OneDrive/Documents/Desktop/DE lab/exp6/Waveform.vwf
+source_file = 1, C:/Users/moosa/OneDrive/Documents/Desktop/DE lab/exp6/db/exp6.cbx.xml
+design_name = exp6
+instance = comp, \clk~input , clk~input, exp6, 1
+instance = comp, \Q~output , Q~output, exp6, 1
+instance = comp, \Qbar~output , Qbar~output, exp6, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, exp6, 1
+instance = comp, \S~input , S~input, exp6, 1
+instance = comp, \R~input , R~input, exp6, 1
+instance = comp, \Qbar~0 , Qbar~0, exp6, 1
+instance = comp, \Q~reg0 , Q~reg0, exp6, 1
+instance = comp, \Qbar~1 , Qbar~1, exp6, 1
+instance = comp, \Qbar~reg0 , Qbar~reg0, exp6, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, exp6, 1

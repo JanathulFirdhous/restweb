@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp3/exp3.v
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp3/Waveform.vwf
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp3/db/exp3.cbx.xml
+design_name = exp3
+instance = comp, \sum~output , sum~output, exp3, 1
+instance = comp, \cout~output , cout~output, exp3, 1
+instance = comp, \a~input , a~input, exp3, 1
+instance = comp, \b~input , b~input, exp3, 1
+instance = comp, \cin~input , cin~input, exp3, 1
+instance = comp, \sum~0 , sum~0, exp3, 1
+instance = comp, \cout~0 , cout~0, exp3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, exp3, 1

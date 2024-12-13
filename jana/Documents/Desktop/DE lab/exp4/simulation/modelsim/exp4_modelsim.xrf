@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp4/exp4.v
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp4/Waveform.vwf
+source_file = 1, C:/Users/moosa/OneDrive/Desktop/DE lab/exp4/db/exp4.cbx.xml
+design_name = exp4
+instance = comp, \df~output , df~output, exp4, 1
+instance = comp, \bo~output , bo~output, exp4, 1
+instance = comp, \a~input , a~input, exp4, 1
+instance = comp, \b~input , b~input, exp4, 1
+instance = comp, \bin~input , bin~input, exp4, 1
+instance = comp, \df~0 , df~0, exp4, 1
+instance = comp, \bo~0 , bo~0, exp4, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, exp4, 1

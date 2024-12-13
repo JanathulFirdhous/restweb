@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .game-container {
+            display: inline-block;
+            text-align: left;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Number Game</h1>
+        <p>I'm thinking of a number between 1 and 100.</p>
+        <label for="guess">Enter your guess: </label>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Guess</button>
+        <p id="message"></p>
+        <p id="attempts"></p>
+    </div>
+
+    <script>
+
+        const randomNumber = Math.floor(Math.random() * 100) + 1;
+        let attempts = 0;
+
+        function checkGuess() {
+            // Get the player's guess from the input field
+            const playerGuess = document.getElementById('guess').value;
+            const messageElement = document.getElementById('message');
+            const attemptsElement = document.getElementById('attempts');
+            attempts++;
+
+            // Validate the guess
+            if (playerGuess < 1 || playerGuess > 100 || isNaN(playerGuess)) {
+                messageElement.textContent = "Please enter a number between 1 and 100.";
+                return;
+            }
+
+            if (playerGuess < randomNumber) {
+                messageElement.textContent = "Too low! Try again.";
+            } else if (playerGuess > randomNumber) {
+                messageElement.textContent = "Too high! Try again.";
+            } else {
+                messageElement.textContent = "Congratulations! You guessed the correct number!";
+                attemptsElement.textContent = `It took you ${attempts} attempts to guess the right number.`;
+            }
+
+            attemptsElement.textContent = `Attempts: ${attempts}`;
+        }
+    </script>
+</body>
+</html>

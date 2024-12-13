@@ -1,0 +1,21 @@
+# do exp4.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module exp4
+# 
+# Top level modules:
+# 	exp4
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module exp4_vlg_sample_tst
+# -- Compiling module exp4_vlg_check_tst
+# -- Compiling module exp4_vlg_vec_tst
+# 
+# Top level modules:
+# 	exp4_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.exp4_vlg_vec_tst 
+# Loading work.exp4_vlg_vec_tst
+# Loading work.exp4
+# Loading work.exp4_vlg_sample_tst
+# Loading work.exp4_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : exp4.vt(179)
+#    Time: 300 ns  Iteration: 0  Instance: /exp4_vlg_vec_tst/tb_out
