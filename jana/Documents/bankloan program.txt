@@ -1,0 +1,20 @@
+from django.db import models
+from django.contrib import admin
+class Bankloan(models.Model):
+Name=models.CharField(max_length=16)
+mobile_number=models.IntegerField(primary_key="mobile_number")
+Age=models.IntegerField()
+Email=models.EmailField()
+loan_type=models.CharField(max_length=30)
+loan_amount=models.IntegerField()
+duration=models.CharField(max_length=9)
+EMI=models.IntegerField()
+Rate_of_interest=models.FloatField()
+Total_amount=models.IntegerField()
+class BankloanAdmin(admin.ModelAdmin):
+list_display=('Name','mobile_number','Age','Email','loan_type','loan_amount','duration','EMI','Rate_of_interest','Total_amount')
+admin.py
+from django.contrib import admin
+from.models import
+Bankloan,BankloanAdmin
+admin.site.register(Bankloan,BankloanAdmin)

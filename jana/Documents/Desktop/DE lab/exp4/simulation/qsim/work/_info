@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\moosa\OneDrive\Desktop\DE lab\exp4\simulation\qsim
+vexp4
+Z1 I`G`7_o]J^4eCEZG8=LIoa3
+Z2 VVO7o<Sea9P[4IPHY3SaK>1
+Z3 dC:\Users\moosa\OneDrive\Desktop\DE lab\exp4\simulation\qsim
+Z4 w1732548440
+Z5 8exp4.vo
+Z6 Fexp4.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 TM8o;;Za1>^?gT?mD0Em53
+!s85 0
+Z10 !s108 1732548441.392000
+Z11 !s107 exp4.vo|
+Z12 !s90 -work|work|exp4.vo|
+!s101 -O0
+vexp4_vlg_check_tst
+!i10b 1
+!s100 bJ:CJ1;<NEI20`9YfdacW3
+IUC[Doi4dH3>_Zzc6S9JJ:0
+Vbf]BnXXb`9Y@mJ1WdJB?[0
+R3
+Z13 w1732548439
+Z14 8exp4.vt
+Z15 Fexp4.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1732548441.486000
+Z17 !s107 exp4.vt|
+Z18 !s90 -work|work|exp4.vt|
+!s101 -O0
+R8
+vexp4_vlg_sample_tst
+!i10b 1
+!s100 UF5N@d_5mZ:WVYVbY9:Iz3
+IhnZZDNLo^h6=`OYW:R>Fk2
+VY`>OOhB_PDATF8R:0DK=61
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vexp4_vlg_vec_tst
+!i10b 1
+!s100 P[fI=@NAdlDi<TD`@<]8N0
+IaZ6ndLS0zR?i1PZI9Z=fK0
+VU:LDj@HVRfechL;><9<cg2
+R3
+R13
+R14
+R15
+L0 183
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

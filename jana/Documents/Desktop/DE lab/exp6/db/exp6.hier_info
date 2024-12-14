@@ -1,0 +1,11 @@
+|exp6
+S => Q.IN1
+S => Qbar.IN1
+R => Qbar.IN1
+R => Q.IN1
+clk => Qbar~reg0.CLK
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qbar <= Qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function f1()
+{
+celsius=Number(document.getElementById("t1").value);
+document.getElementById("t2").value=(celsius*1.8)+32;
+}
+</script>
+</head>
+<body>
+<label>celsius</label>
+<input type="text" id="t1">
+<input type="submit" value="Convert" onclick="f1()">
+<label>farenheit</label>
+
+<input type="text" id="t2">
+</body>
+</html>
